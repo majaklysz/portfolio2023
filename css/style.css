@@ -38,7 +38,7 @@ body {
 .textB {
   padding-left: 10%;
   margin: 0%;
-  font-size: 8em;
+  font-size: 7em;
   padding-top: 7%;
   color: white;
   font-weight: 900;
@@ -46,7 +46,7 @@ body {
 .textA {
   padding-left: 10%;
   margin: 0%;
-  font-size: 8em;
+  font-size: 7em;
   padding-top: 7%;
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/274/original/bc2.jpg?1694196572")
     0 0 / cover no-repeat;
