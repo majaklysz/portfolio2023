@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Anton"
+      href="https://fonts.google.com/specimen/Lato?query=lato"
+    />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Maja Kłysz</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navBox">
+        <img
+          id="logo"
+          onclick="scrollHome()"
+          src="images/logo.svg"
+          alt="logo"
+        />
+        <ul class="navList">
+          <li class="home" onclick="scrollHome()">Home</li>
+          <li class="projects" onclick="scrollProj()">Projects</li>
+          <li class="aboutMe" onclick="scrollMe()">About Me</li>
+          <li class="contact" onclick="scrollCon()">Contact</li>
+        </ul>
+        <div id="menu"><img src="images/menu.svg" alt="" /></div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="back">
+        <div class="contentB">
+          <h1 class="textB drop-in">
+            I Research, <br />
+            I Design, <br />
+            I Create
+          </h1>
+        </div>
+        <div class="base">
+          <div class="contentA">
+            <h1 class="textA drop-in">
+              I Research, <br />
+              I Design, <br />
+              I Create
+            </h1>
+          </div>
+          <div class="hole"></div>
+        </div>
+      </div>
+
+      <img class="me" src="images/me.png" alt="maja" />
+      <p class="meText">
+        Maja Kłysz <br />
+        Front-End Developer <br />
+        based in Aarhus
+      </p>
+      <div class="section1"></div>
+    </section>
+
+    <section class="menulist">
+      <h1>Menu</h1>
+      <ul class="listPhone">
+        <li class="home2" onclick="scrollHome2()">Home</li>
+        <li class="projects2" onclick="scrollProj()">Projects</li>
+        <li class="aboutMe2" onclick="scrollMe()">About Me</li>
+        <li class="contact2" onclick="scrollCon()">Contact</li>
+      </ul>
+    </section>
+
+    <section id="home2">
+      <div class="contentSmall">
+        <img class="meWhite" src="images/meBack.png" alt="" />
+        <h1 class="drop-in">
+          I Research, <br />
+          I Design, <br />
+          I Create
+        </h1>
+      </div>
+    </section>
+
+    <section class="crisis">
+      <div class="allFun">
+        <div class="headerCrisis">
+          <img src="images/thatSection.svg" alt="" />
+          <h1>what it took to make that section work</h1>
+        </div>
+        <div class="ingredients">
+          <div class="time">
+            <img src="images/fast-speed-icon.svg" alt="clock" />
+            <h1>8h</h1>
+            <p>of my life</p>
+          </div>
+          <div class="tabs">
+            <img src="images/browser-tabs-icon.svg" alt="tabs" />
+            <h1>60</h1>
+            <p>open tabs</p>
+          </div>
+          <div class="tears">
+            <img src="images/water-drop-teardrop-icon.svg" alt="water drop" />
+            <h1>100ml</h1>
+            <p>of my tears</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <section class="titleSec secProj" id="titleSec">
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 10 2"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <text
+            class="fill normal"
+            x="50%"
+            y="50%"
+            text-anchor="middle"
+            font-size="2"
+            fill="none"
+            stroke-width=".015"
+            stroke="#fff"
+            font-family="Anton, sans-serif"
+            alignment-baseline="middle"
+          >
+            PROJECTS
+          </text>
+        </svg>
+        <div class="section"></div>
+      </section>
+
+      <section class="proContent">
+        <div class="position">
+          <div class="card">
+            <img src="images/nifty.png" alt="nifty mockup" />
+            <div class="cardText">
+              <h2>Nifty</h2>
+              <br />
+              <p>
+                Redesign and rebuild the startup company's website to reflect
+                the company's character.
+              </p>
+              <br />
+              <button class="readMore" onclick="location.href ='nifty.html'">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="positionV2">
+          <div class="cardV2">
+            <div class="cardTextV2">
+              <h2>Moms in Motion</h2>
+              <br />
+              <p>
+                AI-powerd landing page promoting fitness app for moms and future
+                moms-to-be
+              </p>
+              <br />
+              <button class="readMore" onclick="location.href ='mim.html'">
+                Read More
+              </button>
+            </div>
+            <img src="images/mim.png" alt="mim mockup" />
+          </div>
+        </div>
+
+        <div class="position positionV2">
+          <div class="card">
+            <img src="images/n&c.png" alt="n&c mockup" />
+            <div class="cardText">
+              <h2>Nature & Chill</h2>
+              <br />
+              <p>
+                Design and creation of the website promoting hidden gems around
+                Aarhus.
+              </p>
+              <br />
+              <button class="readMore" onclick="location.href ='n&c.html'">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="positionV2">
+          <div class="cardV2">
+            <div class="cardTextV2">
+              <h2>Portfolio</h2>
+              <br />
+              <p>This beautiful website wa also designed and coded by ME ❤</p>
+              <br />
+              <button class="readMore">See Code</button>
+            </div>
+            <img src="images/portfolioM.png" alt="UniSurf mockup" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="secMe">
+      <section class="titleSec secMe" id="titleSec">
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 10 2"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <text
+            class="fill normal"
+            x="50%"
+            y="50%"
+            text-anchor="middle"
+            font-size="2"
+            fill="none"
+            stroke-width=".015"
+            stroke="#fff"
+            font-family="Anton, sans-serif"
+            alignment-baseline="middle"
+          >
+            ABOUT ME
+          </text>
+        </svg>
+        <div class="section"></div>
+      </section>
+      <section class="aboutContent">
+        <img src="images/mePhoto.png" alt="me" />
+        <div class="textAbout">
+          <h1>Hi, I'm Maja!</h1>
+          <p>
+            I bring <span class="highlight"> energy</span>,
+            <span class="highlight">creativity</span>, and a
+            <span class="highlight">positive attitude</span> to everything I do.
+            Whenever I'm <span class="highlight">snowboarding</span>, crafting
+            something new, or sharing the excitement of F1 races with my
+            friends, I'm all about living life to the fullest. <br />In the
+            world of Front End Development, I find my
+            <span class="highlight">passion in bringing visions to life</span>
+            and pure joy in the problem-solving journey along the way.
+          </p>
+        </div>
+      </section>
+      <div class="spaceBlue"></div>
+    </section>
+    <section class="contactInfo">
+      <section class="titleSec secCon" id="titleSec">
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 10 2"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <text
+            class="fill normal"
+            x="50%"
+            y="50%"
+            text-anchor="middle"
+            font-size="2"
+            fill="none"
+            stroke-width=".015"
+            stroke="#fff"
+            font-family="Anton, sans-serif"
+            alignment-baseline="middle"
+          >
+            CONTACT
+          </text>
+        </svg>
+        <div class="section"></div>
+      </section>
+      <section class="contactBox">
+        <h1>LET'S CONNECT!</h1>
+        <div class="mailBox">
+          <p class="sub">Write me an email:</p>
+          <a class="main" href="mailto:klyszmaja@gmail.com"
+            >klyszmaja@gmail.com</a
+          >
+        </div>
+
+        <div class="someBox">
+          <p class="sub">Find me on social media:</p>
+          <div class="links">
+            <a
+              href="https://www.linkedin.com/in/maja-klysz-244708251/"
+              target="_blank"
+              ><svg
+                class="spaceContact in"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                fill="white"
+                height="50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"
+                />
+              </svg>
+            </a>
+            <a href="https://github.com/majaklysz" target="_blank">
+              <svg
+                class="git"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <button onclick="scrollHome()" class="upTop">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-up"
+          >
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+        <p class="copyrights">
+          Designed and Developed with passion and few tears<br />©Maja Kłysz
+          2023
+        </p>
+      </section>
+    </section>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
