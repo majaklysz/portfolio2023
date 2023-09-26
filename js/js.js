@@ -31,9 +31,6 @@ function scrollHome() {
   if (menulist.classList.contains("active")) {
     menulist.classList.remove("active");
   }
-  if ((home.style.display = "none")) {
-    scrollHome2();
-  }
 }
 
 function scrollHome2() {
