@@ -215,3 +215,129 @@ nav {
 a {
   text-decoration: none;
 }
+
+.active {
+  display: block !important;
+}
+
+#menu,
+.menulist {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .navList {
+    display: none;
+  }
+
+  nav {
+    background: #0f1029;
+  }
+
+  #logo {
+    width: 10%;
+    height: 10%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    content: url(../images/logowhite.svg);
+  }
+  #menu {
+    display: block;
+    padding-top: 5%;
+  }
+
+  .menulist {
+    height: 100vh;
+    background-color: #0f1029;
+    color: white;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    width: -webkit-fill-available;
+  }
+
+  .menulist h1 {
+    font-size: 3em;
+    margin-bottom: 10%;
+  }
+
+  .listPhone {
+    list-style: none;
+    font-size: 2em;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .listPhone li {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-weight: 100;
+    width: 100%;
+    transition: all 200ms ease;
+  }
+
+  .listPhone li:active {
+    background-color: #6faecd70;
+  }
+
+  .aboutMe2,
+  .projects2,
+  .home2 {
+    border-bottom: 1px solid white;
+  }
+
+  .upTop {
+    margin-bottom: 10%;
+  }
+
+  .copyrights {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+    padding-left: 10%;
+  }
+  .links {
+    margin-top: 5%;
+  }
+
+  .someBox {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .main {
+    font-size: 2em;
+  }
+
+  .sec1 {
+    width: 100%;
+  }
+
+  .sec1 img {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .see {
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  .description {
+    width: 80%;
+  }
+
+  .but2 {
+    padding-bottom: 25%;
+  }
+
+  .back {
+    position: relative;
+  }
+
+  .goBack {
+    width: 90%;
+    margin-bottom: 4%;
+  }
+}
