@@ -57,6 +57,15 @@ body {
   font-weight: 900;
 }
 
+.textA,
+.textB {
+  line-height: 1.25em;
+}
+
+.me {
+  max-width: 35%;
+}
+
 .navBox li {
   display: inline-block;
   font-size: 20px;
