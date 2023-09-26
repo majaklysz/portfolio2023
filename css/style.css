@@ -494,8 +494,9 @@ nav {
 a {
   text-decoration: none;
 }
+
 #home2,
-.menu,
+#menu,
 .menulist {
   display: none;
 }
