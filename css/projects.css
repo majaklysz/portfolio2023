@@ -4,6 +4,7 @@ body {
   font-family: "lato";
   color: white;
   font-weight: 100;
+  font-family: sans-serif;
 }
 
 .navBox li {
@@ -339,5 +340,9 @@ a {
   .goBack {
     width: 90%;
     margin-bottom: 4%;
+  }
+  .contactBox h1 {
+    padding-right: 10%;
+    padding-left: 10%;
   }
 }
